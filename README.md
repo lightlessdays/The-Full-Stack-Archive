@@ -13,7 +13,7 @@ Welcome to the Hashnode Blogs repository focused on Full Stack Development! This
 - [Introduction](https://fullstackarchive.hashnode.dev/what-is-the-full-stack-archive)
 - [Contributing](#contributing)
 - [Code of Conduct](#code-of-conduct)
-- [License](LICENSE.md)
+- [License](#LICENSE)
 
 ## Introduction
 
@@ -50,7 +50,7 @@ We adhere to a Code of Conduct to ensure a friendly and inclusive community. Ple
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE.md). Feel free to use the code and content of this repository in accordance with the terms specified in the license.
+This project is licensed under the [MIT License](#LICENSE). Feel free to use the code and content of this repository in accordance with the terms specified in the license.
 
 ---
 
