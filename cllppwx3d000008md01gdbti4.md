@@ -3,6 +3,7 @@ title: "What are Event Loops in Node.JS?"
 datePublished: Thu Aug 24 2023 22:10:55 GMT+0000 (Coordinated Universal Time)
 cuid: cllppwx3d000008md01gdbti4
 slug: what-are-event-loops-in-nodejs
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1692915171171/16de613d-09f9-4d18-ad6c-3b0a8788ba3d.jpeg
 tags: nodejs
 
 ---
