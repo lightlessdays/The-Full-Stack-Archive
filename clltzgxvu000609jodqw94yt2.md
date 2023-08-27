@@ -518,7 +518,7 @@ This Docker Compose file defines three services: `my-microservice`, `prometheus`
 
 By following these steps, you can monitor your microservices with Prometheus and Grafana. Prometheus provides the monitoring capabilities, while Grafana provides the visualization capabilities. This combination provides a powerful monitoring solution for your microservices.
 
-## Troubleshoot Microservices
+## Troubleshooting Microservices
 
 Ladies and gentlemen, it's time to put on your detective hats and channel your inner code sleuths, because we're about to dive into the art of troubleshooting microservices in the Docker universe! Think of it as solving puzzles in a virtual escape room – the thrill of finding solutions and unlocking success.
 
