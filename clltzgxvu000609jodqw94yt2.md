@@ -3,6 +3,7 @@ title: "Building, Testing, Deploying and Maintaining Microservices with Node.JS 
 datePublished: Sun Aug 27 2023 21:49:31 GMT+0000 (Coordinated Universal Time)
 cuid: clltzgxvu000609jodqw94yt2
 slug: building-testing-deploying-and-maintaining-microservices-with-nodejs-and-docker
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1693173136003/e806806a-083d-4e3b-adf2-e0264c2400e6.webp
 tags: docker, nodejs
 
 ---
