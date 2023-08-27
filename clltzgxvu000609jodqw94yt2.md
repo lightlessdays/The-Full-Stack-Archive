@@ -20,8 +20,7 @@ Ah, the grand design spectacle! Designing a microservices architecture is like a
 
 In this section, we're serving up the recipe for architecting microservices, complete with step-by-step instructions. Think of it as designing the ultimate theme park for your code, where every ride is a microservice. Get your creative hats on, because by the time we're done, you'll be sketching microservices architectures like a pro!
 
-1. Identify the Microservices:
-    
+### Identify the Microservices
 
 Alright, let's play "Spot the Microservice"! The opening act of designing a microservices architecture is all about calling out the stars of the show – the microservices themselves. Think of them as the rockstars of your application, each with their own unique talent. We're talking about breaking down your app into these mini powerhouses, where every microservice is like its own one-person band.
 
@@ -29,8 +28,7 @@ But hold on, we're not just throwing random microservices into the mix. Oh no, e
 
 So, in the world of microservices, size matters, but not in the way you might think! Get ready to witness the rise of these application MVPs – Microservice Virtuoso Performers!
 
-1. Define the Service Boundaries:
-    
+### Define the Service Boundaries
 
 Now that we've got our microservice cast ready, it's time to put up some velvet ropes – we're talking service boundaries, the bouncers of microservices communication! Imagine these boundaries as the VIP sections of a code party, ensuring that microservices hobnob without stepping on each other's toes.
 
@@ -38,8 +36,7 @@ Loose coupling is the name of the game here. Think of microservices as party gue
 
 So, draw those lines, set the stage, and make sure each microservice knows its boundaries. Just imagine you're hosting the grandest ball of all, where microservices waltz together with style, all while maintaining their independent charm.
 
-1. Choose the Communication Protocol:
-    
+### Choose the Communication Protocol
 
 Now that our microservices are mingling within their swanky boundaries, it's time to pick the perfect language for their conversations. Think of it as choosing the right dialect for a code chat – you've got options, like picking between talking in rhymes or riddles.
 
@@ -47,8 +44,7 @@ You've got the classics: REST, the charismatic charmer; gRPC, the fancy-pants di
 
 Picking the protocol is like choosing the right mode of transportation – do you go for a smooth ride, a fast lane, or a discreet tunnel? Your app's mood and needs dictate the choice. So, whether it's a casual catch-up, a formal negotiation, or a secret rendezvous between your microservices, make sure to choose the protocol that suits the vibe, keeping in mind the performance and scalability game. It's like setting the tone for a coding cocktail party that'll leave everyone talking!
 
-1. Design the Data Storage:
-    
+### Design the Data Storage
 
 Time to talk data, the lifeblood of our microservices party! Just like each party guest needs a designated space to crash, every microservice needs its own cozy data nook. We're going for the ultimate in personalization – no more mixing up someone else's socks in the laundry!
 
@@ -56,8 +52,7 @@ Picture it: a data storage solution for each microservice, like little individua
 
 Remember, we're in the business of microservice independence here, not data-sharing gossip sessions. So, when it comes to data, let each microservice be the master of its domain. It's like giving every microservice its own secret hideout, where it can stash its data treasures without worrying about any nosy neighbors.
 
-1. Plan for Resiliency:
-    
+### Plan for Resiliency
 
 Last but not least, let's sprinkle some resilience fairy dust onto our microservices extravaganza! Think of it as giving your code the superhero cape it deserves – ready to tackle failures like a champ and bounce back faster than a rubber ball.
 
@@ -73,8 +68,7 @@ We're diving into the nitty-gritty of crafting Node.js microservices, and it's g
 
 In this section, we're your guides through the fantastical realm of creating Node.js microservices. From laying the foundation to tuning the strings of your virtual instruments, we'll take you step by step. So, get those coding fingers flexed and Docker hats on – we're about to embark on a journey that'll make microservices music history!
 
-1. Create a New Node.js Project:
-    
+### Create a New Node.js Project
 
 The first step is to create a new Node.js project for each microservice. You can create a new Node.js project by running the following command in your terminal:
 
@@ -86,8 +80,7 @@ $ npm init
 
 This command will create a new directory called `my-microservice` and initialize a new Node.js project in that directory.
 
-1. Install Dependencies:
-    
+### Install Dependencies
 
 Next, you will need to install the dependencies required for each microservice. You can install the dependencies by running the following command in your terminal:
 
@@ -97,8 +90,7 @@ $ npm install --save <dependency-name>
 
 Replace `<dependency-name>` with the name of the dependency you want to install.
 
-1. Define the Microservice Endpoints:
-    
+### Define the Microservice Endpoints
 
 Each microservice will need to expose endpoints for communication with other microservices. You can define the endpoints by creating a new file called `index.js` in the root directory of each microservice.
 
@@ -117,8 +109,7 @@ app.listen(3000, () => {
 
 This code defines a simple endpoint that responds with “Hello World!” when a GET request is made to the root URL.
 
-1. Containerize the Microservice with Docker:
-    
+### Containerize the Microservice with Docker
 
 Once you have created the microservice, the next step is to containerize it with Docker. You can create a Dockerfile for each microservice, which specifies the instructions for building the Docker image.
 
@@ -136,8 +127,7 @@ CMD [ "npm", "start" ]
 
 This Dockerfile defines a Node.js 14 base image, sets the working directory, copies the package.json and package-lock.json files, installs the dependencies, copies the rest of the files, exposes port 3000, and runs the `npm start` command.
 
-1. Build and Run the Docker Image:
-    
+### Build and Run the Docker Image
 
 Once you have created the Dockerfile, the next step is to build the Docker image for each microservice. You can build the Docker image by running the following command in your terminal:
 
@@ -165,8 +155,7 @@ Containerization is the art of wrapping up your microservices in these self-cont
 
 In this section, we're lifting the curtain on the containerization act, revealing the steps to make your microservices voyage-ready. From folding up your code shirts to zipping up the Docker suitcases, we're your travel guides through this tech globetrotting adventure. Get ready to witness the transformation from lines of code to compact, self-sustaining code globetrotters – ready to conquer servers and charm users.
 
-1. Define the Dockerfile:
-    
+### Define the Dockerfile
 
 The first step in containerizing a microservice is to define the Dockerfile. A Dockerfile is a text file that contains instructions for building a Docker image. You can create a new Dockerfile in the root directory of each microservice.
 
@@ -184,8 +173,7 @@ CMD [ "npm", "start" ]
 
 This Dockerfile defines a Node.js 14 base image, sets the working directory, copies the package.json and package-lock.json files, installs the dependencies, copies the rest of the files, exposes port 3000, and runs the `npm start` command.
 
-1. Build the Docker Image:
-    
+### Build the Docker Image
 
 Once you have defined the Dockerfile, the next step is to build the Docker image for each microservice. You can build the Docker image by running the following command in your terminal:
 
@@ -216,8 +204,7 @@ Environment variables are like the VIP passes to your microservices party. Inste
 
 In this section, we're handing you the keys to the environment variable mansion. From setting the mood lighting to arranging the metaphorical furniture, we're your interior designers for configuring microservices in style. By the time we're done, your microservices will be strutting their stuff, tailored to perfection and ready to steal the spotlight!
 
-1. Define Configuration Values:
-    
+### Define Configuration Values
 
 The first step is to define the configuration values that your microservice needs. For example, you might need to specify the database URL, the port number, or the API key. You can define these configuration values as environment variables in your Dockerfile.
 
@@ -239,8 +226,7 @@ CMD [ "npm", "start" ]
 
 This Dockerfile defines three environment variables: `DB_URL`, `PORT`, and `API_KEY`.
 
-1. Use Configuration Values in Code:
-    
+### Use Configuration Values in Code
 
 Once you have defined the environment variables, the next step is to use them in your code. You can access environment variables in Node.js using the `process.env` object. For example, to access the `DB_URL` environment variable, you can use the following code:
 
@@ -248,8 +234,7 @@ Once you have defined the environment variables, the next step is to use them in
 const dbUrl = process.env.DB_URL;
 ```
 
-1. Pass Environment Variables to Docker Container:
-    
+### Pass Environment Variables to Docker Container
 
 The final step is to pass the environment variables to the Docker container when you run it. You can pass environment variables to the Docker container using the `-e` flag followed by the environment variable name and value.
 
@@ -269,8 +254,7 @@ Local testing is like having a mini dress rehearsal right in your backyard. Befo
 
 In this section, we're handing out the scripts for local testing, guiding you through the process step by step. From practicing their solos to making sure they can dance in sync, we're the directors of your microservices play. So, grab your popcorn, because by the time we're done, your microservices will be shining stars, ready to dazzle the digital audience!
 
-1. Run the Microservice Locally:
-    
+### Run the Microservice Locally
 
 The first step is to run the microservice locally. You can run the microservice using the following command:
 
@@ -284,8 +268,7 @@ $ npm start
 
 This command will start the microservice on the default port, which is usually port 3000.
 
-1. Use a REST Client to Test the Microservice:
-    
+### Use a REST Client to Test the Microservice
 
 Once the microservice is running, the next step is to use a REST client to test the microservice. A REST client allows you to send HTTP requests to the microservice and receive HTTP responses. You can use tools such as Postman or cURL to test the microservice.
 
@@ -297,8 +280,7 @@ $ curl http://localhost:3000/
 
 This command will send a GET request to the microservice running on port 3000 and print the HTTP response.
 
-1. Write Unit Tests:
-    
+### Write Unit Tests
 
 In addition to testing the microservice manually, it is also essential to write unit tests for the microservice. Unit tests allow you to test individual components of the microservice in isolation. You can use tools such as Mocha or Jest to write unit tests for your microservices.
 
@@ -328,8 +310,7 @@ A well-organized deployment is like hosting a royal ball – you want everything
 
 In this section, we're putting on our director hats again, guiding you through the final act of deploying your microservices to the production spotlight. From backstage preparations to the final curtain call, we've got you covered. Get ready to watch your microservices take their bow in the digital theater – a showstopping performance that's reliable, secure, and ready to steal the show!
 
-1. Choose a Deployment Strategy:
-    
+### Choose a Deployment Strategy
 
 It's decision time, and you're the director of your microservices blockbuster! Picking a deployment strategy is like choosing the perfect angle for a cinematic masterpiece. You've got options that rival the best plot twists – from blue-green deployment, the wardrobe change wizard, to canary deployment, the sneak-peek specialist, and rolling deployment, the red carpet roller.
 
@@ -337,8 +318,7 @@ Each strategy is like a different plot twist in your microservices saga. Picture
 
 Choosing the right strategy is like selecting the perfect climax for your story – it should match the tone and pace of your microservices. So, whether you're into wardrobe makeovers, sneak peeks, or a slow rollout with style, your choice will define the rhythm of your deployment symphony. Get ready to unleash your inner Spielberg and pick the strategy that's perfect for your microservices blockbuster!
 
-1. Create a Docker Registry:
-    
+### Create a Docker Registry
 
 Ladies and gentlemen, it's time to set up our backstage storage for the stars of the show – the Docker images! Think of a Docker registry as the ultimate VIP lounge, where these images hang out before their grand entrance. It's like having a swanky dressing room for your code actors, complete with mirrors and velvet ropes.
 
@@ -346,8 +326,7 @@ Now, you've got options here, just like picking between fancy hotels. There's th
 
 In this chapter, you're the registry manager, overseeing the glamorous check-in process for your Docker images. From the A-listers to the newcomers, every image finds its spot in the registry limelight. So, whether you're opting for the open-to-all Docker Hub or crafting your own private registry, it's time to give your Docker images the storage treatment they deserve!
 
-1. Build and Push Docker Images:
-    
+### Build and Push Docker Images
 
 The next step is to build and push Docker images to the Docker registry. You can build the Docker images using the following command:
 
@@ -363,8 +342,7 @@ $ docker push my-registry/my-microservice:tag
 
 Replace `my-registry` with the name of your Docker registry and `tag` with the version number of your Docker image.
 
-1. Deploy Microservices:
-    
+### Deploy Microservices
 
 Once the Docker images are pushed to the Docker registry, the next step is to deploy the microservices. You can use container orchestration tools such as Kubernetes or Docker Swarm to deploy and manage your microservices.
 
@@ -376,8 +354,7 @@ $ kubectl create deployment my-microservice --image=my-registry/my-microservice:
 
 Replace `my-microservice` with the name of your microservice, `my-registry` with the name of your Docker registry, and `tag` with the version number of your Docker image.
 
-1. Monitor and Scale Microservices:
-    
+### Monitor and Scale Microservices
 
 Alright, my tech-savvy maestros, we've got the microservices party in full swing, but there's no resting on laurels! It's time to put on your detective hats and your conductor batons – we're diving into the world of monitoring and scaling. Think of it as keeping an eye on the dance floor while adjusting the beat to match the crowd's vibe.
 
@@ -395,8 +372,7 @@ Picture this: your microservices, ready to take center stage, all lined up in pe
 
 In this section, we're pulling back the curtains on the scaling spectacle. From a single spotlight to a star-studded ensemble, Docker Compose is your magic wand for turning up the volume and filling the stage with microservices brilliance. Get ready to witness your microservices party go from a duo to a full-blown orchestra, all thanks to the scaling prowess of Docker Compose!
 
-1. Define Microservices in Docker Compose:
-    
+### Define Microservices in Docker Compose
 
 The first step is to define your microservices in a Docker Compose file. You can define the microservices using the `services` section of the Docker Compose file.
 
@@ -411,8 +387,7 @@ services:
 
 This Docker Compose file defines a single microservice called `my-microservice` and specifies the Docker image to use, as well as the port to expose.
 
-1. Scale Microservices:
-    
+### Scale Microservices
 
 Once you have defined your microservices in the Docker Compose file, the next step is to scale them. You can scale the microservices using the following command:
 
@@ -422,8 +397,7 @@ $ docker-compose up --scale my-microservice=3
 
 This command will start three instances of the `my-microservice` microservice.
 
-1. Verify Scaling:
-    
+### Verify Scaling
 
 Finally, it is essential to verify that the microservices are scaled correctly. You can verify the scaling by checking the logs of each microservice instance using the following command:
 
@@ -441,8 +415,7 @@ Prometheus is like your vigilant guardian, always on the lookout for any anomali
 
 In this chapter, we're handing you the keys to the surveillance control room. From setting up the cameras to crafting the perfect dashboard, Prometheus and Grafana are your partners in keeping the microservices show in check. Get ready to don your monitoring cape and visualize the microservices dance in a way that would make even Sherlock Holmes proud!
 
-1. Add Prometheus to Docker Compose:
-    
+### Add Prometheus to Docker Compose
 
 The first step is to add Prometheus to your Docker Compose file. You can add Prometheus using the following configuration:
 
@@ -463,8 +436,7 @@ services:
 
 This Docker Compose file defines two services: `my-microservice` and `prometheus`. The `prometheus` service runs the Prometheus server and exposes the Prometheus web interface on port 9090.
 
-1. Define Prometheus Configuration:
-    
+### Define Prometheus Configuration
 
 Once you have added Prometheus to your Docker Compose file, the next step is to define the Prometheus configuration. You can define the configuration in a `prometheus.yml` file, which is mounted as a volume in the `prometheus` service.
 
@@ -480,8 +452,7 @@ scrape_configs:
 
 This configuration specifies a global scrape interval of 10 seconds and defines a job for the `my-microservice` microservice. The job specifies the target to scrape, which is the `my-microservice` service running on port 3000.
 
-1. Start the Services:
-    
+### Start the Services
 
 Once you have defined the Prometheus configuration, the next step is to start the services using Docker Compose:
 
@@ -491,8 +462,7 @@ $ docker-compose up
 
 This command will start both the `my-microservice` and `prometheus` services.
 
-1. Add Grafana to Docker Compose:
-    
+### Add Grafana to Docker Compose
 
 The final step is to add Grafana to your Docker Compose file. You can add Grafana using the following configuration:
 
@@ -527,8 +497,7 @@ Troubleshooting is like being the star of your own microservices mystery movie. 
 
 In this section, we're your guides to the troubleshooters' realm. From deciphering cryptic error messages to uncovering the hidden gremlins, we'll walk you through the steps to becoming a master of microservices triage. Get ready to embrace the thrill of the hunt, where you're not just a developer – you're a microservices detective, armed with the skills to crack the code and keep your digital domain in top shape!
 
-1. Check Container Logs:
-    
+### Check Container Logs
 
 The first step in troubleshooting microservices in Docker containers is to check the container logs. You can check the logs of a container using the following command:
 
@@ -538,8 +507,7 @@ $ docker logs <container_name>
 
 Replace `<container_name>` with the name or ID of the container you want to check the logs for. This command will print the logs of the container to the console.
 
-1. Check Container Status:
-    
+### Check Container Status
 
 Once you have checked the container logs, the next step is to check the container status. You can check the status of a container using the following command:
 
@@ -549,8 +517,7 @@ $ docker ps -a
 
 This command will list all containers, along with their status. The status of the container can provide clues as to why the microservice is not working correctly.
 
-1. Access Container Shell:
-    
+### Access Container Shell
 
 If checking the container logs and status does not help resolve the issue, you can access the container shell to diagnose the problem. You can access the container shell using the following command:
 
@@ -560,8 +527,7 @@ $ docker exec -it <container_name> /bin/bash
 
 Replace `<container_name>` with the name or ID of the container you want to access the shell for. This command will open a shell inside the container, allowing you to run commands and diagnose the problem.
 
-1. Use Docker Compose Logs:
-    
+### Use Docker Compose Logs
 
 If you are using Docker Compose to manage your microservices, you can use the `docker-compose logs` command to view the logs of all containers in the Docker Compose file.
 
@@ -571,8 +537,7 @@ $ docker-compose logs <service_name>
 
 Replace `<service_name>` with the name of the service you want to view the logs for. This command will print the logs of the specified service to the console.
 
-1. Check Network Configuration:
-    
+### Check Network Configuration
 
 If the microservice is not working correctly, it is also essential to check the network configuration. Make sure that the microservice is running on the correct port and that the port is exposed correctly in the Dockerfile or Docker Compose file.
 
