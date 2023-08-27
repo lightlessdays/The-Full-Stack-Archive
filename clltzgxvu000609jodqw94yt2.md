@@ -183,7 +183,7 @@ $ docker build -t my-microservice .
 
 Replace `my-microservice` with the name you want to give the Docker image.
 
-### Run the Docker Container:
+### Run the Docker Container
 
 Once the Docker image is built, you can run the container using the following command:
 
