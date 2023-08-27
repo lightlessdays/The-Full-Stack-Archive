@@ -1,8 +1,8 @@
 ---
-title: "Building, Testing, Deploying, Maintaining, and Monitoring Microservices with Node.JS + Docker"
+title: "Building, Testing, Deploying, Scaling, and Monitoring Microservices with Node.JS + Docker"
 datePublished: Sun Aug 27 2023 21:49:31 GMT+0000 (Coordinated Universal Time)
 cuid: clltzgxvu000609jodqw94yt2
-slug: building-testing-deploying-maintaining-and-monitoring-microservices-with-nodejs-docker
+slug: building-testing-deploying-scaling-and-monitoring-microservices-with-nodejs-docker
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1693173136003/e806806a-083d-4e3b-adf2-e0264c2400e6.webp
 tags: docker, nodejs
 
