@@ -1,8 +1,8 @@
 ---
-title: "Building Microservices with Node.JS and Docker"
+title: "Building, Testing, Deploying and Maintaining Microservices with Node.JS and Docker"
 datePublished: Sun Aug 27 2023 21:49:31 GMT+0000 (Coordinated Universal Time)
 cuid: clltzgxvu000609jodqw94yt2
-slug: building-microservices-with-nodejs-and-docker
+slug: building-testing-deploying-and-maintaining-microservices-with-nodejs-and-docker
 tags: docker, nodejs
 
 ---
