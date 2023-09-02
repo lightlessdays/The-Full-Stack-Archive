@@ -1,5 +1,5 @@
 ---
-title: "Reading JSON and parsing dumps"
+title: "Reading JSON and Parsing dumps"
 datePublished: Sat Sep 02 2023 19:28:54 GMT+0000 (Coordinated Universal Time)
 cuid: clm2f3849000209jvgswhgakw
 slug: reading-json-and-parsing-dumps
