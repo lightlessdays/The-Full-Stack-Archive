@@ -253,11 +253,11 @@ Head over to [http://127.0.0.1:8000/detectives/?format=json](http://127.0.0.1:80
 
 We can also get the individual detective API with the format
 
-[http://127.0.0.1:8000/detectives/&lt;id&gt;](http://127.0.0.1:8000/detectives/<id>) where id is the unique key for our detectives which is automatically assigned by Django models.
+[http://127.0.0.1:8000/detectives/&lt;id&gt;](http://127.0.0.1:8000/detectives/%3Cid%3E) where id is the unique key for our detectives which is automatically assigned by Django models.
 
 This is all great. Now, let us see how to host this on a server.
 
-## Hosting API Project
+## 🗼 Hosting API Project
 
 Deploying a Django project on PythonAnywhere is a lot like running a Django project on your own PC. You'll use a virtualenv, just like you probably do on your own PC, you'll have a copy of your code on PythonAnywhere which you can edit and browse and commit to version control.
 
