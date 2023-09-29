@@ -3,7 +3,7 @@ title: "What is The Full Stack Archive?"
 datePublished: Mon Jul 24 2023 12:12:53 GMT+0000 (Coordinated Universal Time)
 cuid: clkgtwfaa000s0amk8eka2ysr
 slug: what-is-the-full-stack-archive
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1690200746801/f0ff0ee5-5d64-43e6-88a8-66f025a00fe5.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1695987735532/8dd5fd4e-e92a-4866-8989-46594a35f145.png
 
 ---
 
@@ -19,10 +19,12 @@ Frameworks can be overwhelming, like navigating through a jungle of choices. But
 
 What do you get when you mix coding with memes? A meme machine, of course! We'll have you snorting in your coffee cups with our handpicked collection of programming memes that you can share with your fellow developers. Remember, laughter is the glue that holds the code together!
 
-And there you have it, fearless full-stackers! This blog will be your trusty companion through the highs and lows of full**\-**stack development. We promise to keep you informed, inspired, and entertained—because let's face it, coding is a lot more fun when you're laughing your way through the journey!
+And there you have it, fearless full-stackers! This blog will be your trusty companion through the highs and lows of full\*\*-\*\*stack development. We promise to keep you informed, inspired, and entertained—because let's face it, coding is a lot more fun when you're laughing your way through the journey!
 
 So, grab your favourite programming beverage, put on your coding cape, and let's conquer the full stack world together! Remember, the road might be bumpy, but with a sense of humour and a dash of perseverance, there's no coding challenge we can't tackle!
 
 Stay tuned for our first thrilling post, where we'll start by decoding the ancient art of "Hello, World!" Till then, keep coding and keep smiling!
 
 *Happy coding, and remember: only you can prevent merge conflicts!* 🚀😄
+
+A
